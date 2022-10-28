@@ -1,0 +1,9 @@
+data Arbol a = Hoja
+                |Nodo a (Arbol a) (Arbol a) deriving (Show, Eq)
+                
+arbol = Nodo 5
+                (
+                Nodo 3
+                        (Nodo 2 Hoja Hoja)
+                        (Nodo 4 Hoja Hoja)
+                )

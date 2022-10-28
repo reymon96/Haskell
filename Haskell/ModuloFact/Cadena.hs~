@@ -1,0 +1,3 @@
+module Cadena where
+
+mayus = map toUpper str;
